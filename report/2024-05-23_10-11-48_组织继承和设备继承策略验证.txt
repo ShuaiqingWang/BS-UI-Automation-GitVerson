@@ -1,0 +1,10 @@
+测试报告 - 组织继承和设备继承策略验证
+测试完成，总用时: 1716430301.57秒
+组织继承场景: Failed - Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://10.21.20.226:7443/
+Call log:
+navigating to "https://10.21.20.226:7443/", waiting until "load"
+
+设备组继承场景: Failed - Page.goto: net::ERR_CERT_AUTHORITY_INVALID at https://10.21.20.226:7443/
+Call log:
+navigating to "https://10.21.20.226:7443/", waiting until "load"
+

@@ -1,0 +1,54 @@
+测试报告 - 机器人正向场景测试报告测试
+测试完成，总用时: 1715234144.75秒
+新增应用场景: Passed
+新增应用组场景: Passed
+新增组织以及旗下用户场景: Passed
+新增设备组场以及旗下设备景: Failed - Locator.click: Error: strict mode violation: get_by_text("设备组") resolved to 12 elements:
+    1) <span data-v-ee97da46="" title="测试设备组iETO6857">测试设备组iETO6857</span> aka get_by_text("测试设备组iETO6857")
+    2) <span data-v-ee97da46="" title="测试设备组jXal4966">测试设备组jXal4966</span> aka get_by_text("测试设备组jXal4966")
+    3) <span data-v-ee97da46="" title="测试设备组kHCi5165">测试设备组kHCi5165</span> aka get_by_text("测试设备组kHCi5165")
+    4) <span data-v-ee97da46="" title="测试设备组lCbD6474">测试设备组lCbD6474</span> aka get_by_text("测试设备组lCbD6474")
+    5) <span data-v-ee97da46="" title="测试设备组lJIb9423">测试设备组lJIb9423</span> aka get_by_text("测试设备组lJIb9423")
+    6) <span data-v-ee97da46="" title="测试设备组Nqjw3000">测试设备组Nqjw3000</span> aka get_by_text("测试设备组Nqjw3000")
+    7) <span title="设备组1000" data-v-ee97da46="">设备组1000</span> aka get_by_text("设备组1000")
+    8) <span title="91-21" data-v-ee97da46="">新增的设备组_101_已被修改</span> aka get_by_text("新增的设备组_101_已被修改")
+    9) <span title="159-14" data-v-ee97da46="">新增的设备组_109_已被修改</span> aka get_by_text("新增的设备组_109_已被修改")
+    10) <span title="182-46" data-v-ee97da46="">新增的设备组_89_已被修改</span> aka get_by_text("新增的设备组_89_已被修改")
+    ...
+
+Call log:
+waiting for get_by_text("设备组")
+
+新增用户类型配置场景: Passed
+组织用户行为策略_不控制_指定全局: Passed
+组织用户行为策略_不控制_全局: Passed
+组织用户行为策略_不控制_指定默认: Passed
+组织访问策略场景_全不启用: Passed
+组织访问策略场景_全启用_全局: Passed
+组织访问策略场景_全启用_指定: Passed
+组织安全策略场景_允许_全局: Passed
+组织安全策略场景_不允许_全局: Passed
+组织安全策略场景_不控制_全局: Passed
+组织脱敏策略场景_保留6位_不启用: Passed
+组织脱敏策略场景_保留6位_启用_指定: Passed
+组织水印策略场景_全禁止: Passed
+组织水印策略场景_允许明水印_指定: Passed
+组织水印策略场景_允许明水印_自定义水印: Passed
+组织客户端场景_全显示: Passed
+组织客户端场景_不显示: Passed
+设备用户行为策略_不控制_指定全局: Passed
+设备用户行为策略_不控制_全局: Passed
+设备用户行为策略_不控制_指定默认: Passed
+设备访问策略场景_全不启用: Passed
+设备访问策略场景_全启用_全局: Passed
+设备访问策略场景_全启用_指定: Passed
+设备安全策略场景_允许_全局: Passed
+设备安全策略场景_不允许_全局: Passed
+设备安全策略场景_不控制_全局: Passed
+设备脱敏策略场景_保留6位_不启用: Passed
+设备脱敏策略场景_保留6位_启用_指定: Passed
+设备水印策略场景_全禁止: Passed
+设备水印策略场景_允许明水印_指定: Passed
+设备水印策略场景_允许明水印_自定义水印: Passed
+设备客户端场景_全显示: Passed
+设备客户端场景_不显示: Passed

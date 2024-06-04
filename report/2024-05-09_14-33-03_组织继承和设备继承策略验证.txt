@@ -1,0 +1,19 @@
+测试报告 - 组织继承和设备继承策略验证
+测试完成，总用时: 1715236342.21秒
+组织继承场景: Passed
+设备组继承场景: Failed - Locator.click: Error: strict mode violation: get_by_text("设备组") resolved to 12 elements:
+    1) <span data-v-ee97da46="" title="测试设备组iETO6857">测试设备组iETO6857</span> aka get_by_text("测试设备组iETO6857")
+    2) <span data-v-ee97da46="" title="测试设备组jXal4966">测试设备组jXal4966</span> aka get_by_text("测试设备组jXal4966")
+    3) <span data-v-ee97da46="" title="测试设备组kHCi5165">测试设备组kHCi5165</span> aka get_by_text("测试设备组kHCi5165")
+    4) <span data-v-ee97da46="" title="测试设备组lCbD6474">测试设备组lCbD6474</span> aka get_by_text("测试设备组lCbD6474")
+    5) <span data-v-ee97da46="" title="测试设备组lJIb9423">测试设备组lJIb9423</span> aka get_by_text("测试设备组lJIb9423")
+    6) <span data-v-ee97da46="" title="测试设备组Nqjw3000">测试设备组Nqjw3000</span> aka get_by_text("测试设备组Nqjw3000")
+    7) <span title="设备组1000" data-v-ee97da46="">设备组1000</span> aka get_by_text("设备组1000")
+    8) <span title="91-21" data-v-ee97da46="">新增的设备组_101_已被修改</span> aka get_by_text("新增的设备组_101_已被修改")
+    9) <span title="159-14" data-v-ee97da46="">新增的设备组_109_已被修改</span> aka get_by_text("新增的设备组_109_已被修改")
+    10) <span title="182-46" data-v-ee97da46="">新增的设备组_89_已被修改</span> aka get_by_text("新增的设备组_89_已被修改")
+    ...
+
+Call log:
+waiting for get_by_text("设备组")
+
